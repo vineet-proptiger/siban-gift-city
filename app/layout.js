@@ -26,23 +26,23 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-  metadataBase: new URL(SITE_URL || 'https://sobhaayanapanathur.com'),
-  title: 'Sobha Ayana | 3 BHK Luxury Apartments Panathur Bangalore',
-  description: 'Sobha Ayana at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha offers exclusive 3 BHK luxury apartments with 100+ modern lifestyle amenities. New Launch.',
+  metadataBase: new URL(SITE_URL || 'https://sibangiftcity.com'),
+  title: 'Siban Gift City | Apartments in Gift City Gandhinagar',
+  description: 'Siban by United Yogi LLP in GIFT City, Gandhinagar offers luxury studio, 1, 2 & 3 BHK apartments with 60+ amenities and IGBC Platinum rating. New Launch.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Sobha Ayana | 3 BHK Luxury Apartments Panathur Bangalore',
-    description: 'Sobha Ayana at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha offers exclusive 3 BHK luxury apartments with 100+ modern lifestyle amenities. New Launch.',
-    url: SITE_URL || 'https://sobhaayanapanathur.com',
-    siteName: 'Sobha Ayana',
+    title: 'Siban Gift City | Apartments in Gift City Gandhinagar',
+    description: 'Siban by United Yogi LLP in GIFT City, Gandhinagar offers luxury studio, 1, 2 & 3 BHK apartments with 60+ amenities and IGBC Platinum rating. New Launch.',
+    url: SITE_URL || 'https://sibangiftcity.com',
+    siteName: 'Siban Gift City',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sobha Ayana | 3 BHK Luxury Apartments Panathur Bangalore',
-    description: 'Sobha Ayana at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha offers exclusive 3 BHK luxury apartments with 100+ modern lifestyle amenities. New Launch.',
+    title: 'Siban Gift City | Apartments in Gift City Gandhinagar',
+    description: 'Siban by United Yogi LLP in GIFT City, Gandhinagar offers luxury studio, 1, 2 & 3 BHK apartments with 60+ amenities and IGBC Platinum rating. New Launch.',
   },
   icons: {
     icon: '/favicon/favicon.png',

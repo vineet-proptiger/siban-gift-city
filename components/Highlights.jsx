@@ -3,34 +3,34 @@ import React from 'react'
 
 const highlights = [
   {
-    title: 'Forest-Facing Homes',
-    description: 'Forest-facing homes inside 81-acre Dream Acres, zero common wall.',
-    icon: 'fa-solid fa-tree'
+    title: 'Business Ecosystem',
+    description: 'A growing corporate and innovation hub with global momentum right at your doorstep.',
+    icon: 'fa-solid fa-briefcase'
   },
   {
-    title: 'Reputed Developer',
-    description: 'Premium residential project by reputed developer Sobha.',
-    icon: 'fa-solid fa-building-circle-check'
+    title: 'Seamless Connectivity',
+    description: 'Essential landmarks within a kilometer, including metro stations, malls, schools, and world-class healthcare.',
+    icon: 'fa-solid fa-train-subway'
   },
   {
-    title: 'Spacious 3 BHK Apartments',
-    description: 'Spacious and well-designed 3 BHK apartments with modern layouts.',
-    icon: 'fa-solid fa-house-chimney'
+    title: 'Lifestyle Infrastructure',
+    description: 'Premier healthcare, education, retail, and scenic riverfront developments within the GIFT City ecosystem.',
+    icon: 'fa-solid fa-city'
   },
   {
-    title: 'Proximity to Tech Parks',
-    description: 'Close proximity to major tech parks like RMZ Ecoworld and Embassy Tech Village.',
-    icon: 'fa-solid fa-laptop-code'
-  },
-  {
-    title: 'World-Class Amenities',
-    description: 'Equipped with world-class amenities including clubhouse, pool, and gym.',
-    icon: 'fa-solid fa-person-swimming'
-  },
-  {
-    title: 'High-Growth Investment',
-    description: 'Ideal for both end-users and investors due to strong location growth.',
+    title: 'High-Value Investment',
+    description: 'Significant government backing, including tax incentives and streamlined regulations, fosters a favorable investment climate.',
     icon: 'fa-solid fa-chart-line'
+  },
+  {
+    title: '60+ Modern Amenities',
+    description: 'Spanning over 1 lakh sq. ft. of curated indoor and outdoor lifestyle, fitness, and recreation spaces.',
+    icon: 'fa-solid fa-spa'
+  },
+  {
+    title: 'IGBC Platinum Certified',
+    description: 'Sustainable green development with a prime GIFT City address and 20ft grand showroom frontage.',
+    icon: 'fa-solid fa-award'
   },
 ]
 
@@ -45,7 +45,7 @@ const Highlights = ({ setIsOpen }) => {
             PROJECT HIGHLIGHTS
           </span>
           <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight md:whitespace-nowrap">
-            What Makes Sobha Ayana Stand Apart
+            What Makes Siban Gift City Stand Apart
           </h2>
         </div>
 

@@ -3,43 +3,43 @@ import React, { useState } from 'react'
 
 const faqData = [
   {
-    question: 'What configurations are available at Sobha Ayana?',
+    question: 'What configurations are available at Siban Gift City?',
     answer: (
       <>
-        Sobha Ayana offers exclusive and spacious <strong className="font-semibold text-[#111111]">3 BHK luxury apartments</strong> designed with modern architecture, zero common wall layout, and top-notch amenities that offer modern, peaceful and serene living.
+        Siban Gift City offers <strong className="font-semibold text-[#111111]">Studio, 1, 2 &amp; 3 BHK apartments</strong> designed with contemporary architecture, optimal space utilization, and top-tier amenities for modern urban living.
       </>
     ),
   },
   {
-    question: 'What is the starting price of Sobha Ayana?',
+    question: 'What is the starting price of Siban Gift City?',
     answer: (
       <>
-        The starting price is <strong className="font-semibold text-[#111111]">₹ 2.3 Cr* Onwards</strong>. Exclusive new launch benefits and special early-bird offers for 3 BHK luxury apartments are available upon enquiry for priority registrations.
+        The starting price is <strong className="font-semibold text-[#111111]">₹ 1 Cr* Onwards</strong>. Exclusive new launch benefits and special early-bird offers are available upon enquiry for priority registrations.
       </>
     ),
   },
   {
-    question: 'Who is the developer of Sobha Ayana?',
+    question: 'Who is the developer of Siban Gift City?',
     answer:
-      'Sobha Ayana is developed by Sobha, one of India’s most reputed real estate builders renowned for superior craftsmanship, in-house quality control, and timely delivery.',
+      'Siban Gift City is brought to you by United Yogi LLP, bringing exceptional craftsmanship, sustainable development, and superior lifestyle living to Gandhinagar.',
   },
   {
-    question: 'Where exactly is Sobha Ayana located?',
+    question: 'Where exactly is Siban Gift City located?',
     answer: (
       <>
-        The project is ideally situated at <strong className="font-semibold text-[#111111]">Panathur, Off Marathahalli-ORR, Bengaluru</strong>, inside the 81-acre SOBHA Dream Acres, offering seamless connectivity to Outer Ring Road, Bellandur, Marathahalli, and Whitefield IT corridors.
+        The project is prime located within <strong className="font-semibold text-[#111111]">GIFT City, Gandhinagar, Gujarat</strong>, offering unmatched connectivity to metro stations, corporate hubs, international schools, malls, and riverfront developments.
       </>
     ),
   },
   {
-    question: 'What amenities are provided at Sobha Ayana?',
+    question: 'What amenities and green features are provided?',
     answer:
-      'The project offers over 100+ world-class amenities including a lavish clubhouse, swimming pool, fitness center, dedicated yoga deck, landscaped gardens, kids play area, jogging paths, sports courts, and 24/7 multi-tier security.',
+      'Siban Gift City is an IGBC Platinum Certified development featuring 60+ curated amenities across 1 lakh sq. ft., including club facilities, swimming pool, wellness spaces, landscaped gardens, 20ft showroom frontage, and 24/7 security.',
   },
   {
-    question: 'What is the current status and RERA registration of the project?',
+    question: 'What is the possession date and RERA registration of the project?',
     answer:
-      'The project is in the New Launch phase. The RERA registration number is PRM/KA/RERA/1251/446/PR/030824/006958.',
+      'Siban Gift City is currently a New Launch project with expected delivery by December 2030. The RERA registration number is MAA14625.',
   },
 ]
 

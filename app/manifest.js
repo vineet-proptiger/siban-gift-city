@@ -1,8 +1,8 @@
 export default function manifest() {
   return {
-    name: 'Sobha Ayana',
-    short_name: 'Sobha Ayana',
-    description: 'Exclusive 3 BHK Luxury Apartments at Panathur, Off Marathahalli-ORR, Bengaluru by Sobha',
+    name: 'Siban Gift City',
+    short_name: 'Siban Gift City',
+    description: 'Luxury Studio, 1, 2 & 3 BHK Apartments at GIFT City, Gandhinagar by United Yogi LLP',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',

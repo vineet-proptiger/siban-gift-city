@@ -3,10 +3,28 @@ import React from 'react'
 
 const pricingData = [
   {
+    type: 'Studio Apartments',
+    area: 'On Request',
+    price: '₹ 1 Cr* Onwards',
+    desc: 'Smartly designed studio residences ideal for modern professionals, executives, and high-yield investment.',
+  },
+  {
+    type: '1 BHK Apartments',
+    area: 'On Request',
+    price: 'Price on Request',
+    desc: 'Efficiently planned 1 BHK residences offering premium comfort, smart layouts, and vibrant lifestyle amenities.',
+  },
+  {
+    type: '2 BHK Apartments',
+    area: 'On Request',
+    price: 'Price on Request',
+    desc: 'Spacious 2 BHK homes with expansive living spaces, premium finishes, and scenic city views.',
+  },
+  {
     type: '3 BHK Apartments',
-    area: '1553 – 1789',
-    price: '₹ 2.3 Cr* Onwards',
-    desc: 'Spacious and well-designed 3 BHK luxury apartments featuring modern layouts, forest views, and top-notch amenities.',
+    area: 'On Request',
+    price: 'Price on Request',
+    desc: 'Exclusive 3 BHK luxury residences designed for grand family living with superior ventilation and privacy.',
   },
 ]
 

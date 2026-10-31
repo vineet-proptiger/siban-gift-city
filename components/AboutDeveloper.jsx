@@ -194,7 +194,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
           DEVELOPER PROFILE
         </span>
         <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
-          Crafted by Sobha
+          Crafted by United Yogi LLP
         </h2>
       </div>
 
@@ -233,7 +233,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
               </div>
               <div>
                 <h3 style={{ fontFamily: F_JOST, fontWeight: '800', fontSize: '18px', color: '#fff', margin: '0 0 4px', letterSpacing: '-0.01em' }}>
-                  Sobha
+                  United Yogi LLP
                 </h3>
 
               </div>
@@ -244,7 +244,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
           <div style={{ padding: '24px 28px', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <div>
               <p className='text-justify' style={{ color: '#555', fontFamily: F_SANS, lineHeight: 1.8, fontSize: '14px', margin: '0 0 20px' }}>
-                SOBHA’s journey of craftsmanship encompasses 599 iconic projects across residential, non-residential, commercial, and contractual spaces, spanning an expansive 156.45 million sq. ft. (14.53 million sq. m.) of delivered perfection.
+                United Yogi LLP brings visionary design and premium residential living to GIFT City, Gandhinagar. Known for high standards of quality, modern architecture, and customer satisfaction, United Yogi LLP is committed to creating sustainable, IGBC Platinum-certified addresses that combine luxury, innovation, and long-term value.
               </p>
             </div>
 
