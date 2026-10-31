@@ -62,8 +62,8 @@ export async function POST(request) {
     const lastName = nameParts.slice(1).join(' ') || ''
 
     /* ── Tracking ── */
-    const utmSource = get('utm_source') || 'Microsite'
-    const utmMedium = get('utm_medium') || 'organic'
+    const utmSource = get('utm_source') || 'Google'
+    const utmMedium = get('utm_medium') || ''
     const utmCampaign = get('utm_campaign')
     const utmTerm = get('utm_term')
     const utmContent = get('utm_content')

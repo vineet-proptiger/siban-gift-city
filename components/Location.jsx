@@ -3,45 +3,45 @@ import React from 'react'
 
 const locationList = [
   {
-    title: 'GIFT City Metro Station',
-    desc: 'Seamless rapid transit connecting Gandhinagar and Ahmedabad',
-    time: '01 KM',
-    icon: 'fa-solid fa-train-subway',
-  },
-  {
-    title: 'IFSC & Global Business Hub',
-    desc: 'India’s premier international financial and corporate ecosystem',
-    time: 'Within Hub',
-    icon: 'fa-solid fa-building-columns',
-  },
-  {
-    title: 'World-Class Healthcare',
-    desc: 'Leading multi-specialty hospitals and emergency care units',
-    time: '01 KM',
+    title: 'Lilavati Hospital',
+    desc: 'Advanced multi-speciality medical & healthcare services',
+    time: '1.3 KM',
     icon: 'fa-solid fa-hospital',
   },
   {
-    title: 'International Schools & Academies',
-    desc: 'Top global educational institutions within GIFT City',
-    time: '01 KM',
+    title: 'MIRA Multi Speciality Hospital',
+    desc: 'Modern healthcare infrastructure & emergency trauma care',
+    time: '11.4 KM',
+    icon: 'fa-solid fa-house-medical',
+  },
+  {
+    title: 'Gujarat National Law University',
+    desc: 'Premier National Law University (GNLU) campus',
+    time: '5.1 KM',
     icon: 'fa-solid fa-graduation-cap',
   },
   {
-    title: 'Malls & Retail High Street',
-    desc: 'Premier shopping, dining, and vibrant entertainment avenues',
-    time: '01 KM',
-    icon: 'fa-solid fa-bag-shopping',
+    title: 'PDEU Gandhinagar',
+    desc: 'Leading higher education & research academic institute',
+    time: '4.8 KM',
+    icon: 'fa-solid fa-school',
   },
   {
-    title: 'Scenic Riverfront Promenade',
-    desc: 'Expansive landscaped riverfront developments & walking trails',
-    time: '02 KM',
-    icon: 'fa-solid fa-water',
+    title: 'GIFT City Metro Station',
+    desc: 'Fast transit connecting Gandhinagar & Ahmedabad metro corridors',
+    time: '1.8 KM',
+    icon: 'fa-solid fa-train-subway',
+  },
+  {
+    title: 'GIFT City Club & Grand Mercure',
+    desc: 'Premier business club, fine dining & luxury hospitality',
+    time: '2.0 KM',
+    icon: 'fa-solid fa-hotel',
   },
   {
     title: 'Ahmedabad International Airport',
-    desc: 'Smooth signal-free connectivity to SVPI Airport',
-    time: '15 Mins',
+    desc: 'Signal-free drive to Sardar Vallabhbhai Patel Airport (SVPI)',
+    time: '16.5 KM',
     icon: 'fa-solid fa-plane-departure',
   },
 ]
@@ -53,7 +53,7 @@ const Location = () => {
         
         {/* Section Title */}
         <div className="text-center max-w-[850px] mx-auto mb-8 md:mb-10" data-aos="fade-up">
-          <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
+          <span className="text-[#20658F] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
             LOCATION ADVANTAGES
           </span>
           <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
@@ -71,12 +71,12 @@ const Location = () => {
                 key={index}
                 data-aos="fade-right"
                 data-aos-delay={(index * 40).toString()}
-                className="group bg-white hover:bg-[#F9F8F3] border border-[#EAE6DF] hover:border-[#8B6A34]/60 rounded-[12px] px-3.5 sm:px-4 py-2 sm:py-2.5 flex items-center justify-between shadow-[0_2px_8px_rgba(0,0,0,0.03)] hover:shadow-[0_4px_16px_rgba(0,0,0,0.12)] transition-all duration-200"
+                className="group bg-white hover:bg-[#F2F7FA] border border-[#E0ECF2] hover:border-[#20658F]/60 rounded-[12px] px-3.5 sm:px-4 py-2 sm:py-2.5 flex items-center justify-between shadow-[0_2px_8px_rgba(0,0,0,0.03)] hover:shadow-[0_4px_16px_rgba(0,0,0,0.12)] transition-all duration-200"
               >
                 {/* Left side: Icon & Title + Context */}
                 <div className="flex items-center gap-2.5 sm:gap-3 min-w-0 pr-2">
-                  <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#F4EFE6] group-hover:bg-[#111111] text-[#111111] group-hover:text-[#8B6A34] flex items-center justify-center text-[13px] sm:text-[14px] shrink-0 transition-colors duration-200">
-                    <i className={`${item.icon} text-[#111111] group-hover:text-[#8B6A34]`}></i>
+                  <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#E8F1F6] group-hover:bg-[#111111] text-[#111111] group-hover:text-[#20658F] flex items-center justify-center text-[13px] sm:text-[14px] shrink-0 transition-colors duration-200">
+                    <i className={`${item.icon} text-[#111111] group-hover:text-[#20658F]`}></i>
                   </div>
                   <div className="min-w-0 flex flex-col">
                     <span className="text-[#1f2937] group-hover:text-[#111111] font-bold text-[13px] sm:text-[14px] transition-colors duration-200 leading-snug truncate">
@@ -89,7 +89,7 @@ const Location = () => {
                 </div>
 
                 {/* Right side: Time Badge */}
-                <span className="bg-[#F4EFE6] group-hover:bg-[#111111] text-[#111111] group-hover:text-white font-bold text-[11px] sm:text-[12px] px-2.5 sm:px-3 py-1 rounded-full whitespace-nowrap transition-colors duration-200 shrink-0 shadow-xs">
+                <span className="bg-[#E8F1F6] group-hover:bg-[#111111] text-[#111111] group-hover:text-white font-bold text-[11px] sm:text-[12px] px-2.5 sm:px-3 py-1 rounded-full whitespace-nowrap transition-colors duration-200 shrink-0 shadow-xs">
                   {item.time}
                 </span>
               </div>
@@ -102,14 +102,14 @@ const Location = () => {
             data-aos="fade-left"
           >
             <iframe
-              src="https://maps.google.com/maps?q=GIFT+City+Gandhinagar+Gujarat&t=&z=14&ie=UTF8&iwloc=&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13431.005032962852!2d72.698393!3d23.162465!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e81d1b51857bb%3A0x2fcf2fe78415716e!2sSiban%20at%20Gift%20City%20-%20Project%20by%20United%20Yogi%20LLP!5e1!3m2!1sen!2sin!4v1793447712426!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="strict-origin-when-cross-origin"
-              title="Siban Gift City, Gandhinagar Location Map"
+              title="Siban at Gift City - Project by United Yogi LLP"
               className="w-full h-full block flex-1"
             />
           </div>

@@ -109,10 +109,10 @@ const DownloadCard = ({ doc, setIsOpen }) => {
           {doc.label}
         </p>
 
-        {/* Gold underline */}
+        {/* Blue accent underline */}
         <div style={{
           width: '40px', height: '2px',
-          background: '#8B6A34',
+          background: '#20658F',
           margin: '0 auto',
           borderRadius: '1px',
         }} />
@@ -130,7 +130,7 @@ const DownloadCard = ({ doc, setIsOpen }) => {
           cursor: 'pointer', transition: 'background 0.2s',
           flexShrink: 0,
         }}
-        onMouseEnter={e => (e.currentTarget.style.background = '#8B6A34', e.currentTarget.style.color = '#ffffff')}
+        onMouseEnter={e => (e.currentTarget.style.background = '#20658F', e.currentTarget.style.color = '#ffffff')}
         onMouseLeave={e => (e.currentTarget.style.background = '#111111', e.currentTarget.style.color = '#ffffff')}
       >
         DOWNLOAD

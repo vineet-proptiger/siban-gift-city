@@ -9,22 +9,22 @@ module.exports = {
     extend: {
       colors: {
         gold: {
-          DEFAULT: '#8B6A34',
-          light: '#A68245',
-          dark: '#6F5327',
-          bg: '#F9F8F3',
+          DEFAULT: '#20658F',
+          light: '#2A7EAF',
+          dark: '#174C6C',
+          bg: '#F2F7FA',
         },
         teal: {
-          DEFAULT: '#8B6A34',
-          light: '#A68245',
-          dark: '#6F5327',
-          bg: '#F4EFE6',
+          DEFAULT: '#20658F',
+          light: '#2A7EAF',
+          dark: '#174C6C',
+          bg: '#E8F1F6',
         },
         terracotta: {
-          DEFAULT: '#8B6A34',
-          light: '#A68245',
-          dark: '#6F5327',
-          bg: '#F9F8F3',
+          DEFAULT: '#20658F',
+          light: '#2A7EAF',
+          dark: '#174C6C',
+          bg: '#F2F7FA',
         },
         primary: {
           DEFAULT: '#111111',
@@ -36,8 +36,8 @@ module.exports = {
           mid: '#000000',
         },
         light: {
-          DEFAULT: '#F9F8F3',
-          muted: '#F4EFE6',
+          DEFAULT: '#F2F7FA',
+          muted: '#E8F1F6',
         },
         'text-mid': 'var(--color-text-mid)',
         'text-light': 'var(--color-text-light)',
@@ -68,8 +68,8 @@ module.exports = {
           to: { opacity: '1', transform: 'translateY(0)' },
         },
         pulseGlow: {
-          '0%, 100%': { boxShadow: '0 0 0 0   rgba(139, 106, 52, 0.45)' },
-          '50%': { boxShadow: '0 0 0 12px rgba(139, 106, 52, 0)' },
+          '0%, 100%': { boxShadow: '0 0 0 0   rgba(32, 101, 143, 0.45)' },
+          '50%': { boxShadow: '0 0 0 12px rgba(32, 101, 143, 0)' },
         },
         shimmer: {
           '0%': { backgroundPosition: '-200% center' },

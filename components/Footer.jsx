@@ -20,7 +20,7 @@ const Footer = ({ setIsOpen }) => (
         data-aos="fade-up" data-aos-delay="50"
         className="text-[#d1d5db] font-medium text-[14px] sm:text-[16px] md:text-[17px] max-w-3xl leading-relaxed mb-8"
       >
-        Luxury Studio, 1, 2 &amp; 3 BHK Apartments | GIFT City, Gandhinagar, Gujarat | New Launch
+        Luxury 1, 2 &amp; 3 BHK Apartments | GIFT City, Gandhinagar, Gujarat | New Launch
       </p>
 
       {/* ── SECTION 8: CTA Buttons ── */}
@@ -35,16 +35,16 @@ const Footer = ({ setIsOpen }) => (
           style={{
             background: '#111111',
             color: '#ffffff',
-            border: '2px solid #8B6A34',
+            border: '2px solid #20658F',
           }}
           onMouseEnter={e => {
-            e.currentTarget.style.background = '#8B6A34';
-            e.currentTarget.style.borderColor = '#8B6A34';
+            e.currentTarget.style.background = '#20658F';
+            e.currentTarget.style.borderColor = '#20658F';
             e.currentTarget.style.color = '#ffffff';
           }}
           onMouseLeave={e => {
             e.currentTarget.style.background = '#111111';
-            e.currentTarget.style.borderColor = '#8B6A34';
+            e.currentTarget.style.borderColor = '#20658F';
             e.currentTarget.style.color = '#ffffff';
           }}
         >
@@ -58,16 +58,16 @@ const Footer = ({ setIsOpen }) => (
           style={{
             background: '#111111',
             color: '#ffffff',
-            border: '2px solid #8B6A34',
+            border: '2px solid #20658F',
           }}
           onMouseEnter={e => {
-            e.currentTarget.style.background = '#8B6A34';
-            e.currentTarget.style.borderColor = '#8B6A34';
+            e.currentTarget.style.background = '#20658F';
+            e.currentTarget.style.borderColor = '#20658F';
             e.currentTarget.style.color = '#ffffff';
           }}
           onMouseLeave={e => {
             e.currentTarget.style.background = '#111111';
-            e.currentTarget.style.borderColor = '#8B6A34';
+            e.currentTarget.style.borderColor = '#20658F';
             e.currentTarget.style.color = '#ffffff';
           }}
         >
@@ -81,16 +81,16 @@ const Footer = ({ setIsOpen }) => (
           style={{
             background: '#111111',
             color: '#ffffff',
-            border: '2px solid #8B6A34',
+            border: '2px solid #20658F',
           }}
           onMouseEnter={e => {
-            e.currentTarget.style.background = '#8B6A34';
-            e.currentTarget.style.borderColor = '#8B6A34';
+            e.currentTarget.style.background = '#20658F';
+            e.currentTarget.style.borderColor = '#20658F';
             e.currentTarget.style.color = '#ffffff';
           }}
           onMouseLeave={e => {
             e.currentTarget.style.background = '#111111';
-            e.currentTarget.style.borderColor = '#8B6A34';
+            e.currentTarget.style.borderColor = '#20658F';
             e.currentTarget.style.color = '#ffffff';
           }}
         >
@@ -104,15 +104,15 @@ const Footer = ({ setIsOpen }) => (
         className="inline-flex flex-wrap items-center justify-center gap-2 sm:gap-3 bg-white/[0.06] border border-white/15 px-6 py-3 rounded-full mb-10 text-[14px] sm:text-[15px]"
       >
         <span className="flex items-center gap-1.5 text-neutral-300">
-          <i className="fa-solid fa-location-dot text-[#8B6A34]"></i>
+          <i className="fa-solid fa-location-dot text-[#20658F]"></i>
           GIFT City, Gandhinagar, Gujarat
         </span>
         <span className="text-white/20 hidden sm:inline">|</span>
         <a 
           href={`tel:${PHONE_NUMBER}`} 
-          className="flex items-center gap-1.5 text-white hover:text-[#8B6A34] font-bold transition-colors duration-200"
+          className="flex items-center gap-1.5 text-white hover:text-[#20658F] font-bold transition-colors duration-200"
         >
-          <i className="fa-solid fa-phone text-[#8B6A34]"></i>
+          <i className="fa-solid fa-phone text-[#20658F]"></i>
           {PHONE_DISPLAY}
         </a>
       </div>
@@ -138,7 +138,7 @@ const Footer = ({ setIsOpen }) => (
         <Link
           href="/privacy-policy"
           prefetch={false}
-          className="text-[#8B6A34] hover:underline font-medium transition-colors duration-200"
+          className="text-[#20658F] hover:underline font-medium transition-colors duration-200"
         >
           Privacy Policy
         </Link>
@@ -146,7 +146,7 @@ const Footer = ({ setIsOpen }) => (
 
       {/* ── 2nd SS Content: Detailed Legal Disclaimer ── */}
       <p className="w-full text-left text-neutral-500 text-[12px] leading-[1.75] m-0">
-        <strong className="text-[#8B6A34]">Disclaimer:</strong> This is not the official website of the developer. The information depicted herein, including master plans, floor plans, furniture layout, fittings, illustrations, specifications, designs, dimensions, rendered views, colours, amenities and facilities etc., are subject to change without notification as may be required by the relevant authorities or the Developer&apos;s architect. This advertisement is an invitation to offer and shall not be construed as an offer or contract. * Prices subject to change without notice. All taxes extra as applicable.
+        <strong className="text-[#20658F]">Disclaimer:</strong> This is not the official website of the developer. The information depicted herein, including master plans, floor plans, furniture layout, fittings, illustrations, specifications, designs, dimensions, rendered views, colours, amenities and facilities etc., are subject to change without notification as may be required by the relevant authorities or the Developer&apos;s architect. This advertisement is an invitation to offer and shall not be construed as an offer or contract. * Prices subject to change without notice. All taxes extra as applicable.
       </p>
 
     </div>

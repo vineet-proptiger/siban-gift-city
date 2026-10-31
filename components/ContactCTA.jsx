@@ -121,14 +121,14 @@ const ContactCTA = ({ setIsOpen }) => {
 
         {/* SECTION 8: Headline & Subheadline */}
         <div className="text-center mb-8 sm:mb-10" data-aos="fade-up">
-          <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2 block">
+          <span className="text-[#20658F] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2 block">
             LIMITED TIME LAUNCH OPPORTUNITY
           </span>
           <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
             Book Your Home at Special Launch Prices
           </h2>
           <p className="text-[#4b5563] text-[14px] sm:text-[16px] font-medium max-w-3xl mx-auto mt-3 leading-relaxed">
-            Exclusive 3 BHK Luxury Apartments | Panathur, Off Marathahalli-ORR, Bengaluru | New Launch
+            Luxury 1, 2 &amp; 3 BHK Apartments | GIFT City, Gandhinagar, Gujarat | New Launch
           </p>
 
           {/* CTA Buttons row */}
@@ -136,7 +136,7 @@ const ContactCTA = ({ setIsOpen }) => {
             <button
               type="button"
               onClick={() => setIsOpen && setIsOpen(true)}
-              className="px-6 sm:px-8 py-3 rounded-full font-extrabold text-[14px] bg-[#111111] text-white border-2 border-[#111111] hover:bg-[#8B6A34] hover:text-white hover:border-[#8B6A34] transition-all shadow-md hover:shadow-lg cursor-pointer"
+              className="px-6 sm:px-8 py-3 rounded-full font-extrabold text-[14px] bg-[#111111] text-white border-2 border-[#111111] hover:bg-[#20658F] hover:text-white hover:border-[#20658F] transition-all shadow-md hover:shadow-lg cursor-pointer"
             >
               Enquire Now
             </button>
@@ -158,11 +158,11 @@ const ContactCTA = ({ setIsOpen }) => {
 
           {/* Contact Details */}
           <div className="mt-4 inline-flex items-center gap-2 text-xs sm:text-sm text-[#6c757d] font-semibold bg-white px-4 py-2 rounded-full border border-gray-200 shadow-xs">
-            <i className="fa-solid fa-location-dot text-[#8B6A34]"></i>
-            <span>Panathur, Off Marathahalli-ORR, Bengaluru</span>
+            <i className="fa-solid fa-location-dot text-[#20658F]"></i>
+            <span>GIFT City, Gandhinagar, Gujarat</span>
             <span className="text-gray-300">|</span>
             <a href={`tel:${PHONE_NUMBER}`} className="text-[#111111] hover:text-[#111111] flex items-center gap-1 font-bold">
-              <i className="fa-solid fa-phone text-[#8B6A34]"></i>
+              <i className="fa-solid fa-phone text-[#20658F]"></i>
               {PHONE_DISPLAY}
             </a>
           </div>
@@ -197,7 +197,7 @@ const ContactCTA = ({ setIsOpen }) => {
               <form onSubmit={submit} className="flex flex-col gap-4">
                 <div>
                   <label className="block text-[11px] font-bold text-gray-500 uppercase tracking-wider mb-1">
-                    Full Name <span className="text-[#8B6A34]">*</span>
+                    Full Name <span className="text-[#20658F]">*</span>
                   </label>
                   <input name="fullname" required value={form.fullname} onChange={handle} placeholder="Enter your full name"
                     className="form-input w-full" style={{ fontFamily: F_SANS }} />
@@ -213,7 +213,7 @@ const ContactCTA = ({ setIsOpen }) => {
 
                 <div>
                   <label className="block text-[11px] font-bold text-gray-500 uppercase tracking-wider mb-1">
-                    Mobile Number <span className="text-[#8B6A34]">*</span>
+                    Mobile Number <span className="text-[#20658F]">*</span>
                   </label>
                   <input name="phone" required value={form.phone} onChange={handle}
                     placeholder="10-digit mobile number" maxLength={10}
@@ -230,7 +230,7 @@ const ContactCTA = ({ setIsOpen }) => {
                 </label>
 
                 <button type="submit" disabled={loading}
-                  className="w-full py-3.5 rounded-full font-extrabold text-sm bg-[#111111] text-white border-2 border-[#111111] hover:bg-[#8B6A34] hover:text-white hover:border-[#8B6A34] transition-colors shadow-md cursor-pointer flex items-center justify-center gap-2">
+                  className="w-full py-3.5 rounded-full font-extrabold text-sm bg-[#111111] text-white border-2 border-[#111111] hover:bg-[#20658F] hover:text-white hover:border-[#20658F] transition-colors shadow-md cursor-pointer flex items-center justify-center gap-2">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <line x1="22" y1="2" x2="11" y2="13" /><polygon points="22 2 15 22 11 13 2 9 22 2" />
                   </svg>

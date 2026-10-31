@@ -87,7 +87,7 @@ const Navbar = ({ setIsOpen, onPrefetchModal }) => {
                   whiteSpace: 'nowrap'
                 }}
                 onMouseEnter={e => {
-                  if (!link.active) e.target.style.color = '#8B6A34'
+                  if (!link.active) e.target.style.color = '#20658F'
                   prefetchSection(link.href)
                 }}
                 onMouseLeave={e => {
@@ -112,9 +112,9 @@ const Navbar = ({ setIsOpen, onPrefetchModal }) => {
                 border: '2px solid #111111',
               }}
               onMouseEnter={e => {
-                e.currentTarget.style.background = '#8B6A34';
+                e.currentTarget.style.background = '#20658F';
                 e.currentTarget.style.color = '#ffffff';
-                e.currentTarget.style.borderColor = '#8B6A34';
+                e.currentTarget.style.borderColor = '#20658F';
                 e.currentTarget.style.transform = 'translateY(-1px)';
                 onPrefetchModal?.();
               }}
@@ -180,9 +180,9 @@ const Navbar = ({ setIsOpen, onPrefetchModal }) => {
               className="w-full py-3.5 px-4 rounded-[50px] font-extrabold text-[15px] transition-all duration-300 shadow-md cursor-pointer"
               style={{ background: '#111111', color: '#ffffff', border: '2px solid #111111' }}
               onMouseEnter={e => {
-                e.currentTarget.style.background = '#8B6A34';
+                e.currentTarget.style.background = '#20658F';
                 e.currentTarget.style.color = '#ffffff';
-                e.currentTarget.style.borderColor = '#8B6A34';
+                e.currentTarget.style.borderColor = '#20658F';
                 onPrefetchModal?.();
               }}
               onMouseLeave={e => {

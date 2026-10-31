@@ -190,7 +190,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
 
       {/* Heading */}
       <div className="text-center mb-10" data-aos="fade-up">
-        <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
+        <span className="text-[#20658F] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
           DEVELOPER PROFILE
         </span>
         <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
@@ -217,7 +217,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
           }}>
             <div style={{
               position: 'absolute', top: 0, left: 0, right: 0, height: '2px',
-              background: 'linear-gradient(90deg, #8B6A34, #A68245)',
+              background: 'linear-gradient(90deg, #20658F, #2A7EAF)',
             }} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '14px', position: 'relative' }}>
               <div style={{
@@ -244,7 +244,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
           <div style={{ padding: '24px 28px', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <div>
               <p className='text-justify' style={{ color: '#555', fontFamily: F_SANS, lineHeight: 1.8, fontSize: '14px', margin: '0 0 20px' }}>
-                United Yogi LLP brings visionary design and premium residential living to GIFT City, Gandhinagar. Known for high standards of quality, modern architecture, and customer satisfaction, United Yogi LLP is committed to creating sustainable, IGBC Platinum-certified addresses that combine luxury, innovation, and long-term value.
+                United Yogi LLP is a distinguished real estate company based in Ahmedabad, known for its strong commitment to quality, innovation, and customer-centric values. With a clear mission to redefine urban living, the company specializes in developing premium residential and commercial spaces that seamlessly integrate modern architecture, functionality, and sustainability.
               </p>
             </div>
 
@@ -291,7 +291,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
           }}>
             <div style={{
               position: 'absolute', top: 0, left: 0, right: 0, height: '2px',
-              background: 'linear-gradient(90deg, #8B6A34, #A68245)',
+              background: 'linear-gradient(90deg, #20658F, #2A7EAF)',
             }} />
             <h3 style={{
               fontFamily: F_JOST, fontWeight: '800', fontSize: '18px',

@@ -11,7 +11,7 @@ const MasterPlan = ({ setIsOpen }) => {
 
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-10" data-aos="fade-up">
-          <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
+          <span className="text-[#20658F] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
             MASTER PLAN &amp; FLOOR PLANS
           </span>
           <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
@@ -72,7 +72,7 @@ const MasterPlan = ({ setIsOpen }) => {
                     <i className="fa-solid fa-lock" />
                   </div>
                   <span className="bg-white text-[#111111] px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold shadow-lg flex items-center gap-2 group-hover:bg-[#111111] group-hover:text-white transition-colors">
-                    <i className="fa-solid fa-file-arrow-down text-[#8B6A34] group-hover:text-white" />
+                    <i className="fa-solid fa-file-arrow-down text-[#20658F] group-hover:text-white" />
                     Click to Unlock High-Res Master Plan
                   </span>
                 </div>
@@ -83,14 +83,16 @@ const MasterPlan = ({ setIsOpen }) => {
 
         {/* ── TAB CONTENT: FLOOR PLANS ── */}
         {activeTab === 'floor' && (
-          <div className="max-w-[550px] mx-auto w-full" data-aos="fade-up">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1100px] mx-auto w-full" data-aos="fade-up">
             
             {[
-              { label: '3 BHK Apartments', size: '1553 – 1789 Sq.Ft', img: '/images/masterplan/3bhk.webp' },
+              { label: '1 BHK Apartments', size: 'On Request', img: '/images/masterplan/2bhk.webp' },
+              { label: '2 BHK Apartments', size: 'On Request', img: '/images/masterplan/3bhk.webp' },
+              { label: '3 BHK Apartments', size: 'On Request', img: '/images/masterplan/4.5bhk.webp' },
             ].map((plan, idx) => (
               <div
                 key={idx}
-                className="bg-white rounded-[22px] shadow-[0_8px_30px_rgba(0,0,0,0.06)] overflow-hidden border border-[#f3f4f6] cursor-pointer hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:border-[#8B6A34]/40 transition-all duration-300 group flex flex-col justify-between"
+                className="bg-white rounded-[22px] shadow-[0_8px_30px_rgba(0,0,0,0.06)] overflow-hidden border border-[#f3f4f6] cursor-pointer hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:border-[#20658F]/40 transition-all duration-300 group flex flex-col justify-between"
                 onClick={() => setIsOpen && setIsOpen(true)}
               >
                 <div className="relative w-full aspect-[4/3] bg-gray-50 p-6 flex items-center justify-center border-b border-[#f3f4f6] overflow-hidden">
@@ -99,20 +101,20 @@ const MasterPlan = ({ setIsOpen }) => {
                     alt={plan.label + ' Floor Plan'}
                     fill
                     className="object-contain filter blur-[6px] transition-transform duration-500 group-hover:scale-105"
-                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                   <div className="absolute inset-0 bg-black/20 flex flex-col items-center justify-center gap-2 transition-colors group-hover:bg-black/30">
                     <div className="w-10 h-10 rounded-full bg-white text-[#111111] flex items-center justify-center text-sm shadow-md">
                       <i className="fa-solid fa-lock" />
                     </div>
                     <span className="bg-white text-[#111111] px-4 py-2 rounded-full text-xs font-bold shadow-md flex items-center gap-1.5 group-hover:bg-[#111111] group-hover:text-white transition-colors">
-                      <i className="fa-solid fa-eye text-[#8B6A34] group-hover:text-white" />
+                      <i className="fa-solid fa-eye text-[#20658F] group-hover:text-white" />
                       Unlock Floor Plan
                     </span>
                   </div>
                 </div>
                 <div className="py-5 px-4 text-center">
-                  <h4 className="text-[#111111] font-extrabold text-[20px] sm:text-[22px] m-0">
+                  <h4 className="text-[#111111] font-extrabold text-[18px] sm:text-[20px] m-0">
                     {plan.label}
                   </h4>
                   <p className="text-[#6c757d] text-[14px] font-semibold mt-1 m-0">

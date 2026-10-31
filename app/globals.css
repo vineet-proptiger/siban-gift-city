@@ -8,30 +8,30 @@
    THEME VARIABLES — Siban Gift City
    ═══════════════════════════════════════════════════════════════ */
 :root {
-  /* ── Siban Gift City — Palette (#111111 + #8B6A34 + Warm Cream #F9F8F3) ── */
-  --color-gold: #8B6A34;
-  --color-gold-light: #A68245;
-  --color-gold-dark: #6F5327;
-  --color-gold-bg: #F9F8F3;
+  /* ── Siban Gift City — Palette (#111111 + #20658F + Cool Elegance #F2F7FA) ── */
+  --color-gold: #20658F;
+  --color-gold-light: #2A7EAF;
+  --color-gold-dark: #174C6C;
+  --color-gold-bg: #F2F7FA;
 
-  /* ── Primary (Deep Forest Pine Green) ── */
+  /* ── Primary ── */
   --color-primary: #111111;
   --color-primary-light: #222222;
   --color-primary-dark: #000000;
 
-  /* ── Accent (Warm Antique Gold / Bronze) ── */
-  --color-teal: #8B6A34;
-  --color-teal-light: #A68245;
-  --color-teal-dark: #6F5327;
+  /* ── Accent ── */
+  --color-teal: #20658F;
+  --color-teal-light: #2A7EAF;
+  --color-teal-dark: #174C6C;
 
   /* ── Dark backgrounds ── */
   --color-dark: #111111;
   --color-dark-mid: #000000;
 
   /* ── Backgrounds ── */
-  --color-bg: #F9F8F3;
-  --color-bg-light: #F9F8F3;
-  --color-bg-muted: #F4EFE6;
+  --color-bg: #F2F7FA;
+  --color-bg-light: #F2F7FA;
+  --color-bg-muted: #E8F1F6;
 
   /* ── Text ── */
   --color-text: #111111;
@@ -221,7 +221,7 @@
     color: inherit;
   }
 
-  /* ── Sobha Ayana scrollbar ── */
+  /* ── Siban Gift City scrollbar ── */
   ::-webkit-scrollbar {
     width: 6px;
   }
@@ -231,16 +231,16 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #111111, #8B6A34);
+    background: linear-gradient(180deg, #111111, #20658F);
     border-radius: 4px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #8B6A34;
+    background: #20658F;
   }
 
   ::selection {
-    background: rgba(139, 106, 52, 0.25);
+    background: rgba(32, 101, 143, 0.25);
     color: #111111;
   }
 }
@@ -288,11 +288,11 @@
   }
 
   .btn-gold:hover {
-    background: #8B6A34 !important;
+    background: #20658F !important;
     color: #ffffff !important;
-    border-color: #8B6A34;
+    border-color: #20658F;
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(139, 106, 52, 0.35);
+    box-shadow: 0 8px 20px rgba(32, 101, 143, 0.35);
   }
 
   .btn-gold:active {
@@ -368,7 +368,7 @@
     box-shadow: -4px 0 20px rgba(0, 0, 0, 0.25);
     background: #111111;
     color: #ffffff;
-    border: 2px solid #8B6A34;
+    border: 2px solid #20658F;
     border-right: none;
     transition: all 0.3s ease;
     text-transform: uppercase;
@@ -377,10 +377,10 @@
 
   .btn-floating-tab:hover {
     transform: translateY(-50%) translateX(-3px) !important;
-    background: #8B6A34 !important;
+    background: #20658F !important;
     color: #ffffff !important;
-    border-color: #8B6A34;
-    box-shadow: -6px 0 25px rgba(139, 106, 52, 0.45);
+    border-color: #20658F;
+    box-shadow: -6px 0 25px rgba(32, 101, 143, 0.45);
   }
 
   /* ══ SECTION TITLE ══ */
@@ -408,7 +408,7 @@
 
   .form-input:focus {
     border-color: #111111;
-    box-shadow: 0 0 0 3px rgba(139, 106, 52, 0.2);
+    box-shadow: 0 0 0 3px rgba(32, 101, 143, 0.2);
   }
 
   .form-input::placeholder {
@@ -584,7 +584,7 @@
 .lead-form-input:focus {
   border-color: #111111;
   background: #ffffff;
-  box-shadow: 0 0 0 3px rgba(139, 106, 52, 0.2);
+  box-shadow: 0 0 0 3px rgba(32, 101, 143, 0.2);
 }
 
 .lead-form-input::placeholder {
@@ -619,10 +619,10 @@
 }
 
 .hero-section .lead-form-btn:hover {
-  background: #8B6A34 !important;
+  background: #20658F !important;
   color: #ffffff !important;
-  border-color: #8B6A34 !important;
-  box-shadow: 0 8px 25px rgba(139, 106, 52, 0.35);
+  border-color: #20658F !important;
+  box-shadow: 0 8px 25px rgba(32, 101, 143, 0.35);
 }
 
 .lead-form-btn {
@@ -641,10 +641,10 @@
 }
 
 .lead-form-btn:hover {
-  background: #8B6A34 !important;
+  background: #20658F !important;
   color: #ffffff !important;
-  border-color: #8B6A34;
-  box-shadow: 0 8px 25px rgba(139, 106, 52, 0.35);
+  border-color: #20658F;
+  box-shadow: 0 8px 25px rgba(32, 101, 143, 0.35);
   transform: translateY(-1px);
 }
 
@@ -656,8 +656,8 @@
 
 /* Hero buttons hover */
 .btn-blue:hover {
-  background: linear-gradient(135deg, #000000, #8B6A34) !important;
-  box-shadow: 0 12px 30px rgba(139, 106, 52, 0.4);
+  background: linear-gradient(135deg, #000000, #20658F) !important;
+  box-shadow: 0 12px 30px rgba(32, 101, 143, 0.4);
 }
 
 .btn-white:hover {

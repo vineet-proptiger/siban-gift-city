@@ -241,7 +241,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                 name="fullname" required value={form.fullname} onChange={handle}
                 placeholder="Enter your name"
                 style={fieldStyle}
-                onFocus={e => { e.currentTarget.style.borderColor = '#111111'; e.currentTarget.style.boxShadow = '0 0 0 3px rgba(139, 106, 52, 0.2)' }}
+                onFocus={e => { e.currentTarget.style.borderColor = '#111111'; e.currentTarget.style.boxShadow = '0 0 0 3px rgba(32, 101, 143, 0.2)' }}
                 onBlur={e => { e.currentTarget.style.borderColor = '#d1d5db'; e.currentTarget.style.boxShadow = 'none' }}
               />
             </div>
@@ -252,7 +252,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                 name="email" type="email" value={form.email} onChange={handle}
                 placeholder="Enter your email (Optional)"
                 style={fieldStyle}
-                onFocus={e => { e.currentTarget.style.borderColor = '#111111'; e.currentTarget.style.boxShadow = '0 0 0 3px rgba(139, 106, 52, 0.2)' }}
+                onFocus={e => { e.currentTarget.style.borderColor = '#111111'; e.currentTarget.style.boxShadow = '0 0 0 3px rgba(32, 101, 143, 0.2)' }}
                 onBlur={e => { e.currentTarget.style.borderColor = '#d1d5db'; e.currentTarget.style.boxShadow = 'none' }}
               />
             </div>
@@ -263,7 +263,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                 name="phone" required value={form.phone} onChange={handle}
                 placeholder="Enter your phone number" maxLength={10}
                 style={fieldStyle}
-                onFocus={e => { e.currentTarget.style.borderColor = '#111111'; e.currentTarget.style.boxShadow = '0 0 0 3px rgba(139, 106, 52, 0.2)' }}
+                onFocus={e => { e.currentTarget.style.borderColor = '#111111'; e.currentTarget.style.boxShadow = '0 0 0 3px rgba(32, 101, 143, 0.2)' }}
                 onBlur={e => { e.currentTarget.style.borderColor = '#d1d5db'; e.currentTarget.style.boxShadow = 'none' }}
               />
             </div>
@@ -303,7 +303,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                   transition: 'all 0.3s ease',
                   boxShadow: '0 4px 15px rgba(0, 0, 0, 0.15)',
                 }}
-                onMouseEnter={e => { if (!loading) { e.currentTarget.style.background = '#8B6A34'; e.currentTarget.style.color = '#ffffff'; e.currentTarget.style.borderColor = '#8B6A34' } }}
+                onMouseEnter={e => { if (!loading) { e.currentTarget.style.background = '#20658F'; e.currentTarget.style.color = '#ffffff'; e.currentTarget.style.borderColor = '#20658F' } }}
                 onMouseLeave={e => { if (!loading) { e.currentTarget.style.background = '#111111'; e.currentTarget.style.color = '#ffffff'; e.currentTarget.style.borderColor = '#111111' } }}
               >
                 {loading ? 'SENDING...' : 'SUBMIT'}

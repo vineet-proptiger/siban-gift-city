@@ -28,7 +28,7 @@ const Overview = ({ setIsOpen }) => {
           {/* Content Column */}
           <div className="w-full lg:w-1/2 lg:px-[16px] lg:pl-12">
             <div>
-              <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2 block">
+              <span className="text-[#20658F] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2 block">
                 LUXURY LIVING
               </span>
               <h2 className="text-[#111111] text-[24px] sm:text-[28px] md:text-[32px] font-black leading-[1.15] mb-4 tracking-tight">
@@ -40,25 +40,25 @@ const Overview = ({ setIsOpen }) => {
                   For those looking to buy a residential property, here comes one of the choicest offerings in Gandhinagar, at Gift City. Brought to you by <strong className="text-[#111111] font-semibold">United Yogi LLP</strong>, <strong className="text-[#111111] font-semibold">Siban</strong> is among the newest addresses for homebuyers.
                 </p>
                 <p className="text-[#4A5568] text-[15px] leading-[1.8] text-left m-0">
-                  There are apartments and studio apartments for sale in Siban Gift City, Gandhinagar. This is a new launch project right now, and is expected to be delivered by <strong className="text-[#8B6A34] font-semibold">Dec, 2030</strong>, offering a variety of options to choose from in a varied budget range.
+                  There are 1, 2 &amp; 3 BHK apartments for sale in Siban Gift City, Gandhinagar. This is a new launch project right now, and is expected to be delivered by <strong className="text-[#20658F] font-semibold">Dec, 2030</strong>, offering a variety of options to choose from in a varied budget range.
                 </p>
               </div>
 
               {/* ── Project Stats Grid (From Highlights) ── */}
-              <div className="grid grid-cols-2 gap-4 p-5 rounded-2xl bg-[#FAF8F5] border border-[#EAE6DF]">
+              <div className="grid grid-cols-2 gap-4 p-5 rounded-2xl bg-[#F2F7FA] border border-[#E0ECF2]">
                 <div>
                   <div className="text-[22px] sm:text-[26px] font-black text-[#111111] tracking-tight">60+</div>
                   <div className="text-[11px] sm:text-[12px] font-bold text-gray-500 uppercase tracking-wider mt-0.5">AMENITIES (1 LAKH SQ. FT.)</div>
                 </div>
-                <div className="border-l border-[#EAE6DF] pl-4">
+                <div className="border-l border-[#E0ECF2] pl-4">
                   <div className="text-[20px] sm:text-[24px] font-black text-[#111111] tracking-tight">IGBC Platinum</div>
                   <div className="text-[11px] sm:text-[12px] font-bold text-gray-500 uppercase tracking-wider mt-0.5">CERTIFIED</div>
                 </div>
-                <div className="border-t border-[#EAE6DF] pt-3">
+                <div className="border-t border-[#E0ECF2] pt-3">
                   <div className="text-[22px] sm:text-[26px] font-black text-[#111111] tracking-tight">GIFT City</div>
                   <div className="text-[11px] sm:text-[12px] font-bold text-gray-500 uppercase tracking-wider mt-0.5">PRIME ADDRESS</div>
                 </div>
-                <div className="border-t border-l border-[#EAE6DF] pt-3 pl-4">
+                <div className="border-t border-l border-[#E0ECF2] pt-3 pl-4">
                   <div className="text-[22px] sm:text-[26px] font-black text-[#111111] tracking-tight">Dec, 2030</div>
                   <div className="text-[11px] sm:text-[12px] font-bold text-gray-500 uppercase tracking-wider mt-0.5">EXPECTED DELIVERY</div>
                 </div>

@@ -26,23 +26,23 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-  metadataBase: new URL(SITE_URL || 'https://sibangiftcity.com'),
+  metadataBase: new URL(SITE_URL || 'https://sibangiftcitygandhinagar.co.in'),
   title: 'Siban Gift City | Apartments in Gift City Gandhinagar',
-  description: 'Siban by United Yogi LLP in GIFT City, Gandhinagar offers luxury studio, 1, 2 & 3 BHK apartments with 60+ amenities and IGBC Platinum rating. New Launch.',
+  description: 'Siban by United Yogi LLP in GIFT City, Gandhinagar offers luxury 1, 2 & 3 BHK apartments with 60+ amenities and IGBC Platinum rating. New Launch.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Siban Gift City | Apartments in Gift City Gandhinagar',
-    description: 'Siban by United Yogi LLP in GIFT City, Gandhinagar offers luxury studio, 1, 2 & 3 BHK apartments with 60+ amenities and IGBC Platinum rating. New Launch.',
-    url: SITE_URL || 'https://sibangiftcity.com',
+    description: 'Siban by United Yogi LLP in GIFT City, Gandhinagar offers luxury 1, 2 & 3 BHK apartments with 60+ amenities and IGBC Platinum rating. New Launch.',
+    url: SITE_URL || 'https://sibangiftcitygandhinagar.co.in',
     siteName: 'Siban Gift City',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Siban Gift City | Apartments in Gift City Gandhinagar',
-    description: 'Siban by United Yogi LLP in GIFT City, Gandhinagar offers luxury studio, 1, 2 & 3 BHK apartments with 60+ amenities and IGBC Platinum rating. New Launch.',
+    description: 'Siban by United Yogi LLP in GIFT City, Gandhinagar offers luxury 1, 2 & 3 BHK apartments with 60+ amenities and IGBC Platinum rating. New Launch.',
   },
   icons: {
     icon: '/favicon/favicon.png',

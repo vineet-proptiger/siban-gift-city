@@ -3,15 +3,9 @@ import React from 'react'
 
 const pricingData = [
   {
-    type: 'Studio Apartments',
-    area: 'On Request',
-    price: '₹ 1 Cr* Onwards',
-    desc: 'Smartly designed studio residences ideal for modern professionals, executives, and high-yield investment.',
-  },
-  {
     type: '1 BHK Apartments',
     area: 'On Request',
-    price: 'Price on Request',
+    price: '₹ 1 Cr* Onwards',
     desc: 'Efficiently planned 1 BHK residences offering premium comfort, smart layouts, and vibrant lifestyle amenities.',
   },
   {
@@ -30,12 +24,12 @@ const pricingData = [
 
 const Pricing = ({ setIsOpen }) => {
   return (
-    <section id="pricing" className="w-full py-10 md:py-14 font-poppins overflow-hidden" style={{ background: '#F9F8F3' }}>
+    <section id="pricing" className="w-full py-10 md:py-14 font-poppins overflow-hidden" style={{ background: '#F2F7FA' }}>
       <div className="container mx-auto px-4 sm:px-6" style={{ maxWidth: '1200px' }}>
         
         {/* Section Header */}
         <div className="text-center max-w-5xl mx-auto mb-10" data-aos="fade-up">
-          <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2px] uppercase mb-2.5 block">
+          <span className="text-[#20658F] font-bold text-[13px] sm:text-[14px] tracking-[2px] uppercase mb-2.5 block">
             PRICE LIST
           </span>
           <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight md:whitespace-nowrap">
@@ -50,7 +44,7 @@ const Pricing = ({ setIsOpen }) => {
               key={index}
               data-aos="fade-up"
               data-aos-delay={(index * 100).toString()}
-              className="bg-white rounded-[20px] p-6 sm:p-7 border border-[#EAE6DF] shadow-[0_8px_30px_rgba(0,0,0,0.06)] relative overflow-hidden flex flex-col justify-between"
+              className="bg-white rounded-[20px] p-6 sm:p-7 border border-[#E0ECF2] shadow-[0_8px_30px_rgba(0,0,0,0.06)] relative overflow-hidden flex flex-col justify-between"
               style={{ borderTop: '4px solid #111111' }}
             >
               <div>
@@ -62,7 +56,7 @@ const Pricing = ({ setIsOpen }) => {
                 </div>
 
                 {/* Specs: Super Built-up Area */}
-                <div className="mb-4 bg-[#F4EFE6] px-3.5 py-2.5 rounded-xl border border-[#EAE6DF] flex flex-col min-[340px]:flex-row min-[340px]:items-center justify-between gap-1">
+                <div className="mb-4 bg-[#E8F1F6] px-3.5 py-2.5 rounded-xl border border-[#E0ECF2] flex flex-col min-[340px]:flex-row min-[340px]:items-center justify-between gap-1">
                   <span className="text-gray-600 text-[11.5px] sm:text-xs font-bold uppercase tracking-wider">Super Built-up Area</span>
                   <strong className="text-[#111111] text-[13.5px] sm:text-[14px] font-extrabold">
                     {item.area === 'On Request' ? item.area : `${item.area} Sq.Ft.`}
@@ -71,7 +65,7 @@ const Pricing = ({ setIsOpen }) => {
 
                 {/* Estimated Price Block */}
                 <div className="mb-4">
-                  <span className="text-[11.5px] text-[#8B6A34] font-bold uppercase tracking-wider block mb-1">
+                  <span className="text-[11.5px] text-[#20658F] font-bold uppercase tracking-wider block mb-1">
                     PRICE
                   </span>
                   <div className="text-[#111111] font-black text-[24px] tracking-tight">
@@ -89,8 +83,8 @@ const Pricing = ({ setIsOpen }) => {
                   border: '2px solid #111111',
                 }}
                 onMouseEnter={e => {
-                  e.currentTarget.style.background = '#8B6A34';
-                  e.currentTarget.style.borderColor = '#8B6A34';
+                  e.currentTarget.style.background = '#20658F';
+                  e.currentTarget.style.borderColor = '#20658F';
                   e.currentTarget.style.color = '#ffffff';
                 }}
                 onMouseLeave={e => {
@@ -106,7 +100,7 @@ const Pricing = ({ setIsOpen }) => {
         </div>
 
         {/* ── DESKTOP TABLE (Visible on md and above) ── */}
-        <div className="hidden md:block bg-white rounded-[16px] shadow-[0_10px_35px_rgba(0,0,0,0.04)] overflow-x-auto border border-[#EAE6DF]" data-aos="fade-up">
+        <div className="hidden md:block bg-white rounded-[16px] shadow-[0_10px_35px_rgba(0,0,0,0.04)] overflow-x-auto border border-[#E0ECF2]" data-aos="fade-up">
           <table className="w-full border-collapse">
             <thead>
               <tr className="bg-[#111111] text-white">
@@ -118,7 +112,7 @@ const Pricing = ({ setIsOpen }) => {
             </thead>
             <tbody className="text-[#222222] divide-y divide-[#f0f0f0]">
               {pricingData.map((item, index) => (
-                <tr key={index} className="hover:bg-[#F9F8F3] transition-colors duration-200">
+                <tr key={index} className="hover:bg-[#F2F7FA] transition-colors duration-200">
                   <td className="py-5 px-4 lg:px-6 font-extrabold text-[16.5px] text-[#111111] text-left whitespace-nowrap">{item.type}</td>
                   <td className="py-5 px-4 lg:px-6 text-[15px] font-semibold text-[#495057] text-center whitespace-nowrap">{item.area === 'On Request' ? item.area : `${item.area} Sq.Ft.`}</td>
                   <td className="py-5 px-4 lg:px-6 font-black text-[17px] text-[#111111] text-center whitespace-nowrap">{item.price}</td>
@@ -132,9 +126,9 @@ const Pricing = ({ setIsOpen }) => {
                         border: '2px solid #111111',
                       }}
                       onMouseEnter={e => {
-                        e.currentTarget.style.background = '#8B6A34';
+                        e.currentTarget.style.background = '#20658F';
                         e.currentTarget.style.color = '#ffffff';
-                        e.currentTarget.style.borderColor = '#8B6A34';
+                        e.currentTarget.style.borderColor = '#20658F';
                         e.currentTarget.style.transform = 'translateY(-2px)';
                       }}
                       onMouseLeave={e => {

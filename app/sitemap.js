@@ -1,6 +1,6 @@
 import { SITE_URL } from '../lib/config'
 
-const BASE_URL = SITE_URL || 'https://sobhaayanapanathur.com'
+const BASE_URL = SITE_URL || 'https://sibangiftcitygandhinagar.co.in'
 
 export default function sitemap() {
   return [

@@ -93,7 +93,7 @@ export default function Home() {
           letterSpacing: '2px',
           background: '#111111',
           color: '#ffffff',
-          border: '2px solid #8B6A34',
+          border: '2px solid #20658F',
           borderRight: 'none',
         }}
       >
@@ -120,7 +120,7 @@ export default function Home() {
           onMouseEnter={prefetchModal}
           onTouchStart={prefetchModal}
           className="flex-1 flex flex-col items-center justify-center py-2 px-1"
-          style={{ background: '#8B6A34', borderRight: '1px solid rgba(255,255,255,0.15)' }}
+          style={{ background: '#20658F', borderRight: '1px solid rgba(255,255,255,0.15)' }}
         >
           <div className="enquire-icon-wrap flex items-center justify-center">
             <svg width="22" height="22" fill="none" stroke="#ffffff" strokeWidth="2.5" viewBox="0 0 24 24">

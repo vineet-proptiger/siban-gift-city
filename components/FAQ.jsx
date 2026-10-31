@@ -6,7 +6,7 @@ const faqData = [
     question: 'What configurations are available at Siban Gift City?',
     answer: (
       <>
-        Siban Gift City offers <strong className="font-semibold text-[#111111]">Studio, 1, 2 &amp; 3 BHK apartments</strong> designed with contemporary architecture, optimal space utilization, and top-tier amenities for modern urban living.
+        Siban Gift City offers <strong className="font-semibold text-[#111111]">1, 2 &amp; 3 BHK apartments</strong> designed with contemporary architecture, optimal space utilization, and top-tier amenities for modern urban living.
       </>
     ),
   },
@@ -57,7 +57,7 @@ const FAQ = () => {
         
         {/* Section Title */}
         <div className="text-center max-w-[800px] mx-auto mb-12 sm:mb-14" data-aos="fade-up">
-          <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-3 block">
+          <span className="text-[#20658F] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-3 block">
             FAQ
           </span>
           <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
