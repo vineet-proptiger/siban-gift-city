@@ -3,45 +3,45 @@ import React from 'react'
 
 const locationList = [
   {
-    title: 'Outer Ring Road',
-    desc: 'Direct arterial expressway connecting major tech corridors',
-    time: '02 KM',
-    icon: 'fa-solid fa-route',
+    title: 'GIFT City Metro Station',
+    desc: 'Seamless rapid transit connecting Gandhinagar and Ahmedabad',
+    time: '01 KM',
+    icon: 'fa-solid fa-train-subway',
   },
   {
-    title: 'Orchids International School',
-    desc: 'Reputed international school ensuring easy daily commute',
-    time: '03 KM',
-    icon: 'fa-solid fa-graduation-cap',
+    title: 'IFSC & Global Business Hub',
+    desc: 'India’s premier international financial and corporate ecosystem',
+    time: 'Within Hub',
+    icon: 'fa-solid fa-building-columns',
   },
   {
-    title: 'Embassy Tech Village',
-    desc: 'Premier IT park hosting global Fortune 500 tech giants',
-    time: '04 KM',
-    icon: 'fa-solid fa-building-user',
-  },
-  {
-    title: 'RMZ Ecoworld',
-    desc: 'Prominent business & tech hub on Outer Ring Road',
-    time: '04 KM',
-    icon: 'fa-solid fa-city',
-  },
-  {
-    title: 'Sakra World Hospital',
-    desc: 'Advanced multi-specialty healthcare & emergency care',
-    time: '05 KM',
+    title: 'World-Class Healthcare',
+    desc: 'Leading multi-specialty hospitals and emergency care units',
+    time: '01 KM',
     icon: 'fa-solid fa-hospital',
   },
   {
-    title: 'Marathahalli Junction',
-    desc: 'Major commercial, shopping and transit junction',
-    time: '06 KM',
-    icon: 'fa-solid fa-road',
+    title: 'International Schools & Academies',
+    desc: 'Top global educational institutions within GIFT City',
+    time: '01 KM',
+    icon: 'fa-solid fa-graduation-cap',
   },
   {
-    title: 'Kempegowda International Airport',
-    desc: 'Direct connectivity via Outer Ring Road & expressway',
-    time: '45 KM',
+    title: 'Malls & Retail High Street',
+    desc: 'Premier shopping, dining, and vibrant entertainment avenues',
+    time: '01 KM',
+    icon: 'fa-solid fa-bag-shopping',
+  },
+  {
+    title: 'Scenic Riverfront Promenade',
+    desc: 'Expansive landscaped riverfront developments & walking trails',
+    time: '02 KM',
+    icon: 'fa-solid fa-water',
+  },
+  {
+    title: 'Ahmedabad International Airport',
+    desc: 'Smooth signal-free connectivity to SVPI Airport',
+    time: '15 Mins',
     icon: 'fa-solid fa-plane-departure',
   },
 ]
@@ -102,14 +102,14 @@ const Location = () => {
             data-aos="fade-left"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15554.266183073021!2d77.70691129902895!3d12.935557148022017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae130048901bed%3A0xd8266cbb0a857875!2sSobha%20Ayana%20Apartment!5e0!3m2!1sen!2sin!4v1793275360427!5m2!1sen!2sin"
+              src="https://maps.google.com/maps?q=GIFT+City+Gandhinagar+Gujarat&t=&z=14&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="strict-origin-when-cross-origin"
-              title="Sobha Ayana Apartment, Bengaluru Location Map"
+              title="Siban Gift City, Gandhinagar Location Map"
               className="w-full h-full block flex-1"
             />
           </div>

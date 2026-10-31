@@ -19,7 +19,7 @@ const VirtualTour = ({ setIsOpen }) => {
     >
       <Image
         src={virtualTourImage}
-        alt="Sobha Ayana Virtual Tour"
+        alt="Siban Gift City Virtual Tour"
         fill
         className="object-cover"
         quality={100}
